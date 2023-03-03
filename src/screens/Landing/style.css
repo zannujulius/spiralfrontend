@@ -1,0 +1,29 @@
+.test {
+  background: url("../../assets/png/noise.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  /* background: url("http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=787878&density=15&opacity=19"); */
+}
+
+.talk-cover {
+  background: linear-gradient(#000000b5, #0000008c),
+    url("https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.worker-img {
+  background: url("https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.section-l_bg {
+  background: url("../../assets/png/landingbg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}

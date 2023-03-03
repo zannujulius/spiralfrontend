@@ -1,0 +1,27 @@
+.modal-nav {
+  width: 100vw;
+  height: 100vh;
+  background: #343a7514;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+}
+
+.modal-container {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 350ms ease;
+  animation: mobileslide 350ms ease;
+}
+
+@keyframes mobileslide {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0;
+  }
+}
