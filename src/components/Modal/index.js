@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Modal = ({ closeModal }) => {
   return (
-    <div className="modal-nav drop-shadow-lg  " style={{}}>
+    <div className="modal-nav drop-shadow-lg" onClick={() => closeModal(false)}>
       <div
         className="modal-container bg-white px-4 pt-4 pb-10"
         onClick={() => closeModal(false)}
@@ -43,7 +43,22 @@ const Modal = ({ closeModal }) => {
             Contact
           </Link>
         </div>
-        <div></div>
+        <div className="flex items-center">
+          <div
+            className={
+              "border-[1px] mr-4 border-gray-700 text-light px-4 py-2 rounded-md cursor-pointer"
+            }
+          >
+            Login
+          </div>
+          <div
+            className={
+              "bg-gray-900 text-white w-[fit-content] px-4 py-2 rounded-md border-[1px] border-gray-700 cursor-pointer"
+            }
+          >
+            Get Started
+          </div>
+        </div>
       </div>
     </div>
   );
