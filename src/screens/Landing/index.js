@@ -36,14 +36,15 @@ const Landing = ({}) => {
                   and typesetting
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 border-1 border-teal-900 gap-5 place-content-start md:w-[70%]">
-                  <Link
-                    to="/dashboard"
+                  <a
+                    to="https://spiralenergy.vercel.app/createaccount"
+                    target={"_blank"}
                     className="w-100 rounded-full drop-shadow-md flex items-center justify-center font-semibold cursor-pointer border-gray-200 text-center bg-gradient-to-r from-[#110613] to-[#1e191f] "
                   >
                     <div className="text-white font-light px-3 py-3">
                       Get started
                     </div>
-                  </Link>
+                  </a>
                   <div className="border-[1px] drop-shadow-sm bg-white font-light cursor-pointer border-gray-200 px-3 py-3 rounded-[30px] text-center text-gray-800">
                     Contact Sales
                   </div>
@@ -153,7 +154,7 @@ const Landing = ({}) => {
           </div>
         </div>
         {/* section */}
-        <div className="flex items-center justify-center mt-[100px] w-[100%] mx-auto md:w-[90%]">
+        <div className="flex items-center justify-center mt-[100px] w-[100%] mx-auto md:w-[90%] ">
           <div className="w-[90%] rounded-lg section-l_bg p-4 h-[400px] flex item-center flex-col justify-center">
             <div className="font-Kanit text-start md:text-center lg:text-center font-semibold text-white text-4xl ">
               Lorem Ipsum is simply dummy text of the printing and

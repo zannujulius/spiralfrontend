@@ -51,13 +51,15 @@ const Modal = ({ closeModal }) => {
           >
             Login
           </div>
-          <div
+          <a
+            href="https://spiralenergy.vercel.app/createaccount"
+            target={"_blank"}
             className={
               "bg-gray-900 text-white w-[fit-content] px-4 py-2 rounded-md border-[1px] border-gray-700 cursor-pointer"
             }
           >
             Get Started
-          </div>
+          </a>
         </div>
       </div>
     </div>

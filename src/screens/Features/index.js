@@ -39,12 +39,13 @@ const Features = () => {
                 industry.
               </div>
               <div className="mt-10">
-                <Link
-                  to="/dashboard"
+                <a
+                  target={"_blank"}
+                  href="https://spiralenergy.vercel.app/createaccount"
                   className="border-[1px] w-full md:w-[300px] lg:w-[300px] md:[fit-content] block drop-shadow-md font-semibold cursor-pointer border-gray-200 px-3 lg:px-16 py-3 rounded-[30px] text-center bg-gradient-to-r from-[#110613] to-[#1e191f] text-white"
                 >
                   Get Started
-                </Link>
+                </a>
                 <div className=" items-center justify-center mt-10 hidden md:hidden lg:hidden">
                   {/* Contact Sales */}
                   <div className="p-4 cursor-pointer" onClick={handleButton}>
