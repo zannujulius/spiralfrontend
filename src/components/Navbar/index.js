@@ -104,7 +104,8 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center">
-            <div
+            <a
+              href="https://spiralenergy.vercel.app/login"
               className={
                 pathname == "/services" && !showNav
                   ? "hidden md:block lg:block border-[1px] border-white text-light px-4 py-2 text-white rounded-md cursor-pointer"
@@ -112,7 +113,7 @@ const Navbar = () => {
               }
             >
               Login
-            </div>
+            </a>
             <a
               href="https://spiralenergy.vercel.app/createaccount"
               target={"_blank"}
