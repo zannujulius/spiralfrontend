@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 
@@ -6,7 +7,7 @@ const Layout = ({ children }) => {
     <div className="relative z-40">
       <Navbar />
       <div>{children}</div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

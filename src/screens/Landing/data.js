@@ -1,3 +1,8 @@
+import OnBtn from "../../assets/png/on.png";
+import BuyBtn from "../../assets/png/buy.png";
+import Chart from "../../assets/svg/chart.svg";
+import ShareImg from "../../assets/png/share.png";
+
 export const serviceData = [
   {
     id: 1,
@@ -112,7 +117,7 @@ export const featuresData = [
     desc: `Lorem Ipsum is simply
     dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industry's.`,
-    icon: "",
+    icon: <img src={OnBtn} className="" />,
   },
   {
     id: 2,
@@ -120,7 +125,7 @@ export const featuresData = [
     desc: `Lorem Ipsum is simply
     dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industry's.`,
-    icon: "",
+    icon: <img src={Chart} className="" />,
   },
   {
     id: 3,
@@ -128,7 +133,7 @@ export const featuresData = [
     desc: `Lorem Ipsum is simply
     dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industry's.`,
-    icon: "",
+    icon: <img src={BuyBtn} className="" />,
   },
   {
     id: 4,
@@ -136,6 +141,6 @@ export const featuresData = [
     desc: `Lorem Ipsum is simply
     dummy text of the printing and typesetting industry. Lorem Ipsum
     has been the industry's.`,
-    icon: "",
+    icon: <img src={ShareImg} className="" />,
   },
 ];
