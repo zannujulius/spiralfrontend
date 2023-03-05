@@ -44,13 +44,14 @@ const Modal = ({ closeModal }) => {
           </Link>
         </div>
         <div className="flex items-center">
-          <div
+          <a
+            href="https://spiralenergy.vercel.app/login"
             className={
               "border-[1px] mr-4 border-gray-700 text-light px-4 py-2 rounded-md cursor-pointer"
             }
           >
             Login
-          </div>
+          </a>
           <a
             href="https://spiralenergy.vercel.app/createaccount"
             target={"_blank"}
