@@ -72,17 +72,17 @@ const Footer = () => {
           </div>
         </div>
         <div className="">
-          <div className="font-bold text-zinc-100 text-md pt-2">Policies</div>
+          <div className="font-bold text-zinc-100 text-md pt-2">Policy</div>
           <div>
             <Link
               to="/"
-              className="py-1 cursor-pointer pr-8  pr mt-2 block font-light text-sm text-zinc-100"
+              className="py-1 hidden cursor-pointer pr-8  pr mt-2 block font-light text-sm text-zinc-100"
             >
-              Useage Policy
+              Usage Policy
             </Link>
             <Link
               to="/services"
-              className=" hidden py-1 cursor-pointer pr-8  pr mt-2 block font-light text-sm text-zinc-100"
+              className=" py-1 cursor-pointer pr-8  pr mt-2 block font-light text-sm text-zinc-100"
             >
               Privacy policy
             </Link>
