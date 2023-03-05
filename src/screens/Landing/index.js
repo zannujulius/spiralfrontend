@@ -37,7 +37,7 @@ const Landing = ({}) => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 border-1 border-teal-900 gap-5 place-content-start md:w-[70%]">
                   <a
-                    to="https://spiralenergy.vercel.app/createaccount"
+                    href="https://spiralenergy.vercel.app/createaccount"
                     target={"_blank"}
                     className="w-100 rounded-full drop-shadow-md flex items-center justify-center font-semibold cursor-pointer border-gray-200 text-center bg-gradient-to-r from-[#110613] to-[#1e191f] "
                   >
