@@ -105,7 +105,7 @@ const Navbar = () => {
 
           <div className="flex items-center">
             <a
-              href="https://spiralenergy.vercel.app/login"
+              href="https://spiralenergy.vercel.app/"
               className={
                 pathname == "/services" && !showNav
                   ? "hidden md:block lg:block border-[1px] border-white text-light px-4 py-2 text-white rounded-md cursor-pointer"

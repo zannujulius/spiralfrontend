@@ -45,7 +45,7 @@ const Modal = ({ closeModal }) => {
         </div>
         <div className="flex items-center">
           <a
-            href="https://spiralenergy.vercel.app/login"
+            href="https://spiralenergy.vercel.app/"
             className={
               "border-[1px] mr-4 border-gray-700 text-light px-4 py-2 rounded-md cursor-pointer"
             }
