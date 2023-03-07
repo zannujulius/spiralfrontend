@@ -144,3 +144,31 @@ export const featuresData = [
     icon: <img src={ShareImg} className="" />,
   },
 ];
+
+export const solutionsData = [
+  {
+    id: 1,
+    title:
+      "Lowest CAPEX + Lowest OPEX + Most Durable Meters = Most Viable Grids",
+    desc: `You can’t find better pricing elsewhere as we offer you the units at cost.`,
+  },
+  {
+    id: 2,
+    title: "Predictable Costs",
+    desc: `We have also built our meters to be maintainable; you will never have to throw 
+    the units away due to faults. Our goal is to improve your grid viability by > 2 years!
+    `,
+  },
+  {
+    id: 3,
+    title: "Most Advanced Analytics based on AI",
+    desc: `We are a software and data company. We commit our 24/7 towards developing actionable insights on all your data
+    `,
+  },
+  {
+    id: 4,
+    title: "Local Support + Advanced Replacement",
+    desc: `We are a software and data company. We commit our 24/7 towards developing actionable insights on all your data
+    `,
+  },
+];

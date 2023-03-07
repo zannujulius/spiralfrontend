@@ -1,6 +1,12 @@
 import Layout from "../../components/Layout";
 import { BsArrowRightShort } from "react-icons/bs";
-import { featuresData, recData, serviceData, specData } from "./data";
+import {
+  featuresData,
+  recData,
+  serviceData,
+  solutionsData,
+  specData,
+} from "./data";
 import "./style.css";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
@@ -24,18 +30,18 @@ const Landing = ({}) => {
             <div className="w-100 rounded-lg pt-[50px] p-5 flex items-center justify-center">
               <div className="">
                 <div className="uppercase text-gray-800 pb-3 text-[15px] font-light">
-                  Lorem Ipsum is simply...
+                  Cutting-Edge IoT Technology for Energy Utilities
                 </div>
                 <div className="text-left font-Kanit font-semibold text-[40px] leading-[55px] text-gray-800">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Detect, Resolve, and Boost - The Ultimate Smart Metering
+                  Platform for Emerging Markets
                 </div>
-                <div className="text-start font-light text-gray-800 my-6">
+                <div className="text-start font-light text-gray-800 my-6 hidden">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br /> simply dummy text of the printing
                   and typesetting
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 border-1 border-teal-900 gap-5 place-content-start md:w-[70%]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 border-1 border-teal-900 gap-5 place-content-start mt-6 md:w-[70%]">
                   <a
                     href="https://spiralenergy.vercel.app/createaccount"
                     target={"_blank"}
@@ -54,6 +60,28 @@ const Landing = ({}) => {
             <div className="mt-4">
               <div className="w-100 h-[600px] border-[1px] border-gray-300 bg-white rounded-lg "></div>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-16 w-[90%] mx-auto">
+          <div className="flex flex-col items-center justify-center px-4 mx-auto md:w-[70%] lg:w-[50%]">
+            <div className=" text-3xl font-semibold mx-2 text-zinc-800 font-Kanit">
+              Solutions we provide
+            </div>
+            <div className="font-light text-center md:text-center mx-auto pt-3">
+              Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is
+              simply dummy text of the printing
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-6">
+            {solutionsData.map(({ id, title, desc }) => (
+              <div className="rounded-lg bg-white drop-shadow-lg p-3">
+                <div className="font-Kanit fonr-bold text-gray-700 ">
+                  {title}
+                </div>
+                <div className="font-light  text-gray-700 mt-2">{desc}</div>
+              </div>
+            ))}
           </div>
         </div>
         {/* review from workers */}
